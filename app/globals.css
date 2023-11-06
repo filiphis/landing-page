@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: black;
+    --text-color: white;
+    --lading-page-backgroundColord: red;
+    --foreground: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+}
+
+@layer base {
+  .landing-page-body-styles {
+    @apply bg-background text-gray-200 min-h-screen flex justify-center flex-col gap-[6vh] sm:gap-[8vh] xl:gap-[12vh]
+  }
+
+}
